@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm Jason.  
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I automate stuff.  I'm a grown man that still rides a skateboard and snowboard.  I like beer and guitars and reading.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jreslock@gmail.com](mailto:jreslock@gmail.com)
