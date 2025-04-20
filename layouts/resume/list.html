@@ -1,0 +1,49 @@
+{{ define "header" }}{{ partials.Include "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf ph3 ph4-ns mw7">
+      <header class="mt0 mb4">
+        <!-- Title is now smaller with f3 instead of f1 class -->
+        {{/*  <h2 class="f3 fw3 gray mt0 mb2">
+          {{ .Title }}
+        </h2>  */}}
+        <!-- If description exists, display it prominently -->
+        {{ with .Params.description }}
+        <h1 class="f4 fw5 mt0 lh-title mb3">
+          {{ . }}
+        </h1>
+        {{ end }}
+      </header>
+      <!-- Resume content with left-aligned text and improved spacing for bullet points -->
+      <div class="nested-copy-line-height lh-copy f5 nested-links text-left {{ $.Param "text_color" | compare.Default "mid-gray" }}">
+        <style>
+          /* Custom CSS for resume formatting */
+          .text-left {
+            text-align: left !important;
+          }
+          .text-left ul {
+            padding-left: 1.5rem;
+            margin-top: 0.5rem;
+          }
+          .text-left ul li {
+            margin-bottom: 0.5rem;
+            text-align: left;
+          }
+          .text-left h1, .text-left h2, .text-left h3, .text-left h4, .text-left h5, .text-left h6 {
+            text-align: left;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+          }
+          .text-left hr {
+            margin: 1.5rem 0;
+          }
+          .text-left p {
+            text-align: left;
+            margin-bottom: 1rem;
+          }
+        </style>
+        {{ .Content }}
+      </div>
+    </article>
+  </div>
+{{ end }}

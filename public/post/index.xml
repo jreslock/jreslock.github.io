@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on jreslock.github.io</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Articles on jreslock.github.io</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Apr 2025 12:00:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome/First Impressions</title>
+      <link>http://localhost:1313/post/post-01/</link>
+      <pubDate>Sun, 20 Apr 2025 12:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/post/post-01/</guid>
+      <description>&lt;h3 id=&#34;oh-hi-there&#34;&gt;Oh, hi there!&lt;/h3&gt;&#xA;&lt;p&gt;I mainly put this site together as a means to enable an evergreen and permanent place to keep my resume. In building the site I realized how much I like writing about technology. This discovery has prompted expanding the site into an actual blog, powered by &lt;a href=&#34;https://gohugo.io&#34;&gt;hugo&lt;/a&gt;, &lt;a href=&#34;https://pages.github.com/&#34;&gt;github pages&lt;/a&gt; and the &lt;a href=&#34;https://github.com/theNewDynamic/gohugo-theme-ananke&#34;&gt;ananke&lt;/a&gt; theme.&lt;/p&gt;&#xA;&lt;p&gt;Expect more articles in the next few weeks as I start working through the backlog of ideas, projects, outages and generally interesting technology-related topics.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

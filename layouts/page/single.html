@@ -1,0 +1,22 @@
+{{ define "header" }}{{ partials.Include "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <header>
+        <!-- Title is now smaller with f3 instead of f1 class -->
+        <h2 class="f3 fw3 gray mt0">
+          {{ .Title }}
+        </h2>
+        <!-- If description exists, display it prominently -->
+        {{ with .Params.description }}
+        <h1 class="f2 fw5 mt0 lh-title">
+          {{ . }}
+        </h1>
+        {{ end }}
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
+        {{ .Content }}
+      </div>
+    </article>
+  </div>
+{{ end }}

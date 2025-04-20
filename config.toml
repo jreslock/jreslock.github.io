@@ -1,0 +1,53 @@
+title = "Musings and Ramblings about Technology"
+baseURL = "https://jreslock.github.io"
+languageCode = "en-us"
+theme = ["ananke"]
+resourceDir = "../resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 5
+
+[languages]
+[languages.en]
+title = "jreslock.github.io"
+weight = 1
+contentDir = "content"
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[params]
+text_color = ""
+author = "Jason Reslock"
+favicon = ""
+site_logo = "/images/bot.png"
+description = "Musings and Ramblings about Technology"
+background_color_class = "bg-black"
+recent_posts_number = 5
+show_reading_time = true
+sharing_icons = true
+
+[params.ananke]
+  [params.ananke.social]
+    [params.ananke.social.github]
+      username = "jreslock"
+    [params.ananke.social.linkedin]
+      username = "jreslock"
+    [params.ananke.social.follow]
+      networks = ["github", "linkedin"]
+    [params.ananke.social.networks]
+      [params.ananke.social.networks.github]
+        label = "GitHub"
+        icon = "github"
+        profile = "https://github.com/%s"
+      [params.ananke.social.networks.linkedin]
+        label = "LinkedIn"
+        icon = "linkedin"
+        profile = "https://linkedin.com/in/%s"
