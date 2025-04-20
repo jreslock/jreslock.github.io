@@ -1,0 +1,51 @@
+/* Minimal CSS to ensure text appears white on black background */
+body {
+  color: #ffffff;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+.content-title, .f2, .f3 {
+  color: #ffffff;
+}
+
+/* Fix white background in article page lists */
+.bg-white, .nested-copy-line-height, .nested-links, article, .pa3 {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+.bg-white * {
+  color: #ffffff;
+}
+
+/* Fix card backgrounds */
+.w-100, .w-two-thirds-l, .center, .cf {
+  background-color: #121212;
+}
+
+/* Ensure article container has dark background */
+.mw8.center, .mw7.center, main, main div {
+  background-color: #121212;
+}
+
+/* Links should be visible on dark background */
+a {
+  color: #4fc3f7;
+}
+
+a:hover {
+  color: #81d4fa;
+}
+
+/* Fix for buttons */
+.read-more-link {
+  background-color: #333;
+}
+
+/* Prevent any white elements */
+section, header, footer, .ph5-l {
+  background-color: #121212;
+}

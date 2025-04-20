@@ -1,0 +1,14 @@
+<div class="w-100 mb4 nested-copy-line-height relative bg-black">
+  <div class="mb3 pa4 overflow-hidden bg-black">
+    {{with .CurrentSection.Title }}<span class="f6 db white-70">{{ . }}</span>{{end}}
+    <h1 class="f3 near-white">
+      <a href="{{ .RelPermalink }}" class="link white-90 dim">
+        {{ .Title }}
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height white-80">
+      {{ .Summary }}
+    </div>
+    <a href="{{.RelPermalink}}" class="ba b--white-30 bg-black br2 white-80 dib f7 hover-bg-dark-gray link mt2 ph2 pv1">{{ $.Param "read_more_copy" | compare.Default (lang.Translate "readMore") }}</a>
+  </div>
+</div>
