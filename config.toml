@@ -9,6 +9,10 @@ SectionPagesMenu = "main"
 googleAnalytics = ""
 enableRobotsTXT = true
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [pagination]
 pagerSize = 5
 
