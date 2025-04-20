@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "Hi my name is Jason. I am a developer and on this site I write about code, automation, cloud, infrastructure, security"
+description: "Hi! My name is Jason. I am a developer and on this site I write about code, automation, cloud, infrastructure, security"
 ---
 {{< figure src="/images/bot.png" title="" >}}
 

@@ -119,27 +119,6 @@ Contributed across support, IT, and DevOps; managed infrastructure, supported cu
 
 ---
 
-### Senior Software Support Engineer → Manager, Customer Support  
-**Axeda Corporation** — Foxboro, MA · *2007 – 2013*
-
-Began as a senior engineer supporting Axeda’s PaaS platform, later promoted to lead a 12-person global support team. Focused on escalations, customer satisfaction, Salesforce CRM implementation, and process improvement.
-
----
-
-### Technical Consultant  
-**Kronos, Inc.** — Chelmsford, MA · *2003 – 2007*
-
-Provided senior-level support for Kronos’ largest enterprise customer. Managed escalations, defect triage, and served as technical liaison for product planning.
-
----
-
-### Earlier Roles  
-**1997 – 2003**
-
-Held various roles in IT, QA, and support at Microtech Associates, Applix, and Monster.com. Gained foundational experience in systems administration, customer support, and technical operations.
-
----
-
 ## Certifications
 
 - AWS Certified Cloud Practitioner (2019)
