@@ -27,7 +27,7 @@ Primarily interested in architect-level individual contributor roles where I can
 
 **IaC/Automation:** Terraform/OpenTofu, Docker, Atlantis, Ansible, Packer  
 
-**CI/CD:** Jenkins, GitHub Actions, AWS CodeBuild
+**CI/CD:** GitHub Actions, AWS CodeBuild, Jenkins
 
 **Security:** SSO/OIDC/SAML, Okta, SumoLogic, Mend, IAM, VPN  
 
