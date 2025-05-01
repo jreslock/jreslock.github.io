@@ -3,7 +3,7 @@ date: 2025-04-20T12:00:00-05:00
 description: "Initial Post"
 featured_image: "/images/first.png"
 tags: ["post"]
-title: "Welcome/First Impressions"
+title: ""
 ---
 
 ### Oh, hi there!
